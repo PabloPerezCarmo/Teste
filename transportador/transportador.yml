@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: root
+    username: root
+    url: 'jdbc:postgresql://localhost:5432/transportador'
+  jpa:
+    hibernate:
+      ddl-auto: update
